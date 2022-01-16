@@ -30,7 +30,7 @@ export const Welcome = ({navigation}) => {
         </Text>
       </View>
       <Pressable style={styles.clickContinue} onPress={navigationHandler}>
-        <Text style={styles.clickContinue}>Click Here to continue </Text>
+        <Text }>Click Here to continue </Text>
       </Pressable>
     </SafeAreaView>
   );
